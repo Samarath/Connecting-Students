@@ -1,0 +1,22 @@
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.inside_card{
+    margin: 10px;
+}
+
+
+
+
+@media screen and (max-width : 480px){
+    .features{
+     width: 100%;
+     margin: 0;
+  }
+}
+
+
+/* @media screen and (max-width : 320px){}  */
