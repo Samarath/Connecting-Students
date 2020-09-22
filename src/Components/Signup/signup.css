@@ -1,0 +1,16 @@
+.sign{
+  margin: 5% 10%;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+.sign p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 600px) {
+  .sign{
+    margin: 12% 24%;
+  }
+}

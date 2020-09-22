@@ -1,22 +1,15 @@
 import React from 'react';
-import {Navbar, Nav, Image, Card, Button} from 'react-bootstrap';
+import {Image, Card, Button} from 'react-bootstrap';
 import mainImg from '../Images/Langing page/main.png';
 import './landing.css'
-import Footer from '../Components/Footer/Footer'
+import Footer from '../Components/Footer/Footer';
+import CustomNavbar from '../Components/Navbar/navbar';
 
 const Landing = () => {
     return (
         <div>
             <div>
-                <Navbar bg="dark" variant="dark">
-                  <Navbar.Brand href="#home">Logo</Navbar.Brand>
-                  <Nav className="ml-auto">
-                    <Nav.Link href="#home">Contact</Nav.Link>
-                    <Nav.Link href="#features">About</Nav.Link>
-                    <Nav.Link href="#pricing">Login</Nav.Link>
-                    <Nav.Link href="#pricing">Register</Nav.Link>
-                  </Nav>
-                </Navbar>
+               <CustomNavbar />
             </div>
             <div className='mb-5'>
                <Image src={mainImg} fluid />
