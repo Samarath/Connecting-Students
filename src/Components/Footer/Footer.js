@@ -1,5 +1,13 @@
 import React from 'react';
 import './Footer.css';
+import { 
+    FaFacebook,
+    FaTwitter,
+    FaLinkedin,
+    FaMapMarker,
+    FaPhone,
+    FaEnvelope
+} from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -12,14 +20,8 @@ const Footer = () => {
 
     <p class="footer-links">
         <a href="#" class="link-1">Home</a>
-        
-        <a href="#">Blog</a>
-    
-        <a href="#">Pricing</a>
     
         <a href="#">About</a>
-        
-        <a href="#">Faq</a>
         
         <a href="#">Contact</a>
     </p>
@@ -30,17 +32,17 @@ const Footer = () => {
 <div class="footer-center">
 
     <div>
-        <i class="fa fa-map-marker"></i>
+        <i><FaMapMarker /></i>
         <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
     </div>
 
     <div>
-        <i class="fa fa-phone"></i>
+        <i><FaPhone /></i>
         <p>+1.555.555.5555</p>
     </div>
 
     <div>
-        <i class="fa fa-envelope"></i>
+        <i><FaEnvelope /></i>
         <p><a href="mailto:support@company.com">support@company.com</a></p>
     </div>
 
@@ -55,10 +57,9 @@ const Footer = () => {
 
     <div class="footer-icons">
 
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
-        <a href="#"><i class="fa fa-github"></i></a>
+        <a href="#"><FaFacebook /></a>
+        <a href="#"><FaLinkedin /></a>
+        <a href="#"><FaTwitter /></a>
 
     </div>
 

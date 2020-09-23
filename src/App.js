@@ -6,8 +6,8 @@ import LogIn from './Components/LogIn/LogIn';
 const App = () => {
   return (
     <div>
-      {/* <Landing /> */}
-      {/* <Singup /> */}
+      <Landing />
+      <Singup />
       <LogIn />
     </div>
   )

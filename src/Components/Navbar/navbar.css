@@ -1,0 +1,21 @@
+.navdark{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar_logo{
+    padding: 10px 20px;
+}
+
+.navbar_logo a{
+    color: red;
+}
+
+.navbar_logo a:nth-child(2){
+    padding: 0 10px;
+}
+
+.navbar_logo a:hover{
+    text-decoration: none;
+}

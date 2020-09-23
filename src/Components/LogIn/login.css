@@ -2,11 +2,32 @@
     margin: 5% 10%;
     padding: 10px;
     border: 1px solid gray;
+    background-color: lightgray;
+    border-radius: 20px;
   }
   
   .log p {
     text-align: center;
     font-size: 1.5rem;
+  }
+
+  .loginBtn {
+    background-color: black;
+    color:red;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+
+  }
+
+  .loginBtn:focus{
+    outline: none;
+  }
+
+  .loginBtn:hover{
+    background-color: rgb(36, 36, 36)
   }
   
   @media screen and (min-width: 600px) {

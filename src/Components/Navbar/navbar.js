@@ -1,16 +1,17 @@
 import React from 'react';
-import {Navbar,Nav} from 'react-bootstrap';
+// import {Navbar,Nav} from 'react-bootstrap';
+import './navbar.css';
 
 const CustomNavbar = () => {
     return (
-        <div>
-           <Navbar bg="dark" variant="dark">
-                 <Navbar.Brand href="#home">Logo</Navbar.Brand>
-                 <Nav className="ml-auto">
-                 <Nav.Link href="#pricing">Login</Nav.Link>
-                 <Nav.Link href="#pricing">Signup</Nav.Link>
-                 </Nav>
-           </Navbar>
+        <div className='navdark'>
+           <div className="navbar_logo">
+               <a href='#'>Logo</a>
+           </div>
+           <div className='navbar_logo'>
+               <a href='#'>LogIn</a>
+               <a href='#'>SignUp</a>
+           </div>
         </div>
     )
 }
