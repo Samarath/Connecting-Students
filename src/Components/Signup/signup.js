@@ -1,7 +1,7 @@
 import React from 'react';
 import {Form, Button} from 'react-bootstrap';
 import './signup.css';
-import Navbar from '../Navbar/navbar';
+import Navbar from '../Navbar/Navbar before verification';
 
 const Signup = () => {
     return (

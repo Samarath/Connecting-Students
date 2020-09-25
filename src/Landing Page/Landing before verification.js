@@ -3,13 +3,13 @@ import {Image, Card, Button} from 'react-bootstrap';
 import mainImg from '../Images/Langing page/main.png';
 import './landing.css'
 import Footer from '../Components/Footer/Footer';
-import CustomNavbar from '../Components/Navbar/navbar';
+import Navbar_before from '../Components/Navbar/Navbar before verification';
 
-const Landing = () => {
+const Landing_page_before_verification = () => {
     return (
         <div>
             <div>
-               <CustomNavbar />
+               <Navbar_before />
             </div>
             <div className='mb-5'>
                <Image src={mainImg} fluid />
@@ -73,4 +73,4 @@ const Landing = () => {
     )
 }
 
-export default Landing;
+export default Landing_page_before_verification;

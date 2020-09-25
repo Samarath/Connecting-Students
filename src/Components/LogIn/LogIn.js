@@ -1,13 +1,13 @@
 import React from 'react';
 import {Form, Button} from 'react-bootstrap';
 import './login.css';
-import Navbar from '../Navbar/navbar';
+import Navbar_before from '../Navbar/Navbar before verification';
 
 const LogIn = () => {
     return (
         <>
         <div>
-            <Navbar />
+            <Navbar_before />
         </div>    
         <div className='log'>
             <p>LogIn</p>
