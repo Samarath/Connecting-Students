@@ -1,0 +1,20 @@
+.filterDisplay {
+    display: grid;
+    grid-template-rows: 500px 500px;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.mainfilter {
+    padding: 20px;
+    /* width: 100%; */
+}
+
+.mainfilter h3{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.filterDisplay2 {
+    width: 100%;
+}

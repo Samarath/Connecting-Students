@@ -3,12 +3,12 @@ import React from 'react';
 // import LandingAfter from './Landing Page/Landing after verification';
 // import Singup from './Components/Signup/signup';
 // import LogIn from './Components/LogIn/LogIn';
-import FilterSearch from './Components/Filter Search/FilterSearch';
+import Filter from './Components/Filter/Filter';
 
 const App = () => {
   return (
     <div>
-      <FilterSearch />
+      <Filter />
     </div>
   )
 }

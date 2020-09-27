@@ -2,7 +2,7 @@ import React from 'react';
 // import {Navbar,Nav} from 'react-bootstrap';
 import './navbar.css';
 
-const CustomNavbar = () => {
+const Navbar_after_verification = () => {
     return (
         <div className='navdark'>
            <div className="navbar_logo">
@@ -16,4 +16,4 @@ const CustomNavbar = () => {
     )
 }
 
-export default  CustomNavbar;
+export default  Navbar_after_verification;
