@@ -26,19 +26,19 @@ const Footer = () => {
         <a href="#">Contact</a>
     </p>
 
-    <p class="footer-company-name">Company Name © 2015</p>
+    <p class="footer-company-name">Connecting Students © 2020</p>
 </div>
 
 <div class="footer-center">
 
     <div>
         <i><FaMapMarker /></i>
-        <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+        <p><span>Near Bat cave</span> Justice Tower</p>
     </div>
 
     <div>
         <i><FaPhone /></i>
-        <p>+1.555.555.5555</p>
+        <p>1234567890</p>
     </div>
 
     <div>
@@ -52,7 +52,7 @@ const Footer = () => {
 
     <p class="footer-company-about">
         <span>About the company</span>
-        Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+        We are here to help people and buid the society. This is a secret project. I hope you will understand it.
     </p>
 
     <div class="footer-icons">

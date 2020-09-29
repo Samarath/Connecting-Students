@@ -1,6 +1,8 @@
 .filterResult{
     border: 1px solid gray;
     color:  rgb(59, 0, 0);
+    height: 800px;
+    overflow: auto;
 }
 
 .filterResult h2{
